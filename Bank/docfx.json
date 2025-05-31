@@ -4,29 +4,23 @@
     {
       "src": [
         {
-          "src": "../Bank/Bank.Domain"
+          "src": "Bank.Domain",
+          "files": [
+            "Bank.Domain.csproj"
+          ]
         }
       ],
-      "dest": "api",
-      "disableDefaultFilter": true
+      "dest": "api"
     }
   ],
   "build": {
     "content": [
       {
         "files": [
-          "api/**.yml",
-          "api/index.md"
-        ]
-      },
-      {
-        "files": [
-          "articles/**.md"
-        ]
-      },
-      {
-        "files": [
-          "toc.yml"
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
         ]
       }
     ],
@@ -43,8 +37,10 @@
       "modern"
     ],
     "globalMetadata": {
-      "_appTitle": "Bank Documentation",
-      "_enableSearch": true
+      "_appName": "",
+      "_appTitle": "",
+      "_enableSearch": true,
+      "pdf": true
     }
   }
 }
