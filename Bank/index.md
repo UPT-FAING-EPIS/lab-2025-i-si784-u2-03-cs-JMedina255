@@ -17,6 +17,12 @@ El proyecto está compuesto por:
 
 ---
 
+## 🔗 Recursos en GitHub
+
+- [Ver BankAccount.cs en GitHub](https://github.com/UPT-FAING-EPIS/lab-2025-i-si784-u2-03-cs-JMedina255/blob/main/Bank/Bank.Domain/BankAccount.cs)
+- [Ver pruebas BankAccountTests.cs en GitHub](https://github.com/UPT-FAING-EPIS/lab-2025-i-si784-u2-03-cs-JMedina255/blob/main/Bank/Bank.Domain.Tests/BankAccountTests.cs)
+
+
 ## 🧾 Descripción del Componente
 
 La clase principal es:
